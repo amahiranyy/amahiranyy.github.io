@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Los Encinos Premier Golf Club</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Icono de la pagina -->
+    <link rel="icon" href="./img/logo Los encinos.png">
+    
+  <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  
+    <!-- CSS específico para ventajas -->
+    <link rel="stylesheet" href="./css/ventajas.css" />
+  
+    <!-- CSS específico JULIOS HEADER , NAVBAR Y FOOTER -->
+    <link rel="stylesheet" href="./css/style.css" />
+  
+    <!-- CSS específico XIMENA PREGUNTAS FRECUENTES Y CONTACTO -->
+    <link rel="stylesheet" href="./css/preguntasYContacto.css">
+              
+    <!-- CSS personalizado para membresías -->
+    <link rel="stylesheet" href="./css/membresias.css" />
+
+    <!-- CSS personalizado tienda y eventos -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+
+<body>
+ <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--verde-bosque);">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#hero">
+        <img src="./img/logo Los encinos.svg" alt="Los Encinos Logo" height="50" class="me-2">
+        <span class="fw-semibold">Los Encinos</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#membresias">Membresías</a></li>
+          <li class="nav-item"><a class="nav-link" href="#eventos">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#preguntasFrecuentes">Preguntas frecuentes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header id="hero" class="hero d-flex align-items-center text-center text-white">
+    
+    <div class="hero__fondo" role="img" aria-label="Campo de golf al amanecer"></div>
+
+    <div class="container position-relative">
+      <div class="row justify-content-center">
+
+        <div class="col-12 col-lg-10">
+
+          <p class="kicker text-uppercase mb-2">Privado · Refinado · Atemporal</p>
+
+          <h1 class="display-4 fw-semibold mb-3">Los Encinos Premier Golf Club</h1>
+
+          <p class="lead mb-4">
+            Experimente el golf de lujo en su máxima expresión: membresías exclusivas,
+            eventos de clase mundial y hospitalidad impecable.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <a href="#membresias" class="btn btn-principal btn-lg px-4">Explorar Membresías</a>
+            <a href="#visita" class="btn btn-secundario btn-lg px-4">Agendar Visita</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+    
+    <!-- Sección de Ventajas -->
+    <section id="ventajas" class="py-5">
+      <div class="container">
+        <!-- Título y subtítulo -->
+        <div class="row text-center mb-5">
+          <div class="col-12">
+            <h2 class="ventajas-title mb-3 membresias-title">Ventajas de Ser Miembro</h2>
+            <p class="ventajas-subtitle">
+              Descubre los privilegios que te esperan al unirte a nuestra
+              exclusiva comunidad.
+            </p>
+          </div>
+        </div>
+        <!-- Cards de Ventajas -->
+        <div class="row g-4">
+          <!-- Campos de Campeonato -->
+          <div class="col-md-4">
+            <div class="ventaja-card h-100">
+              <div class="card-image campos-bg">
+                <div class="card-content">
+                  <h4 class="card-title">Campos de Campeonato</h4>
+                  <p class="card-text">
+                    Acceso a campos de clase mundial diseñados por arquitectos
+                    de renombre y mantenidos a la perfección.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Eventos Exclusivos -->
+          <div class="col-md-4">
+            <div class="ventaja-card h-100">
+              <div class="card-image eventos-bg">
+                <div class="card-content">
+                  <h4 class="card-title">Eventos Exclusivos</h4>
+                  <p class="card-text">
+                    Participa en torneos, cena de gala y eventos exclusivos para
+                    miembros. Disfruta de experiencias distinguidas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Beneficios Premium -->
+          <div class="col-md-4">
+            <div class="ventaja-card h-100">
+              <div class="card-image beneficios-bg">
+                <div class="card-content">
+                  <h4 class="card-title">Beneficios Premium</h4>
+                  <p class="card-text">
+                    Disfruta de servicios exclusivos como spa, lujo, clases,
+                    alquiler de equipos y más.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+  <!-- SECCIÓN DE MEMBRESÍAS -->
+    <section id="membresias" class="py-5">
+      <div class="container">
+        <!-- Título principal -->
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="membresias-title">Nuestras Membresías</h2>
+            <p class="membresias-subtitle">
+              Elige el plan que mejor se adapte a tus necesidades y disfruta de
+              todos los beneficios de ser miembro del club
+            </p>
+          </div>
+        </div>
+
+        <!-- Cards de membresías -->
+        <div class="row g-4 justify-content-center mt-4">
+          <!-- Membresía Básica -->
+          <div class="col-lg-4 col-md-6">
+            <div class="membresia-card h-100">
+              <div class="card-header text-center">
+                <h3 class="plan-name">Básica</h3>
+                <div class="price-container">
+                  <span class="currency">$</span>
+                  <span class="price">99</span>
+                  <span class="period">/mes</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul class="benefits-list">
+                  <li>
+                    <i class="fas fa-check"></i> Acceso a campo de práctica
+                  </li>
+                  <li><i class="fas fa-check"></i> Uso de vestuarios</li>
+                  <li><i class="fas fa-check"></i> Parking gratuito</li>
+                  <li><i class="fas fa-check"></i> Descuentos en pro shop</li>
+                  <li>
+                    <i class="fas fa-times text-muted"></i> Acceso limitado
+                    fines de semana
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer text-center">
+                <button class="btn btn-membresia btn-basic">Elegir Plan</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Membresía Premium (Destacada) -->
+          <div class="col-lg-4 col-md-6">
+            <div class="membresia-card membresia-destacada h-100">
+              <div class="popular-badge">Más Popular</div>
+              <div class="card-header text-center">
+                <h3 class="plan-name">Premium</h3>
+                <div class="price-container">
+                  <span class="currency">$</span>
+                  <span class="price">199</span>
+                  <span class="period">/mes</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul class="benefits-list">
+                  <li>
+                    <i class="fas fa-check"></i> Acceso ilimitado al campo
+                  </li>
+                  <li><i class="fas fa-check"></i> Clases de golf incluidas</li>
+                  <li><i class="fas fa-check"></i> Acceso al restaurante</li>
+                  <li><i class="fas fa-check"></i> Invitados permitidos</li>
+                  <li><i class="fas fa-check"></i> Eventos exclusivos</li>
+                </ul>
+              </div>
+              <div class="card-footer text-center">
+                <button class="btn btn-membresia btn-premium">
+                  Elegir Plan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Membresía VIP -->
+          <div class="col-lg-4 col-md-6">
+            <div class="membresia-card h-100">
+              <div class="card-header text-center">
+                <h3 class="plan-name">VIP</h3>
+                <div class="price-container">
+                  <span class="currency">$</span>
+                  <span class="price">299</span>
+                  <span class="period">/mes</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul class="benefits-list">
+                  <li>
+                    <i class="fas fa-check"></i> Todos los beneficios Premium
+                  </li>
+                  <li><i class="fas fa-check"></i> Instructor personal</li>
+                  <li><i class="fas fa-check"></i> Spa y wellness center</li>
+                  <li><i class="fas fa-check"></i> Concierge service</li>
+                  <li><i class="fas fa-check"></i> Torneo privados VIP</li>
+                </ul>
+              </div>
+              <div class="card-footer text-center">
+                <button class="btn btn-membresia btn-vip">Elegir Plan</button>
+              </div>
+                  </div>
+            </div>
+          </div>
+        </div> <!-- Fin de row de membresías -->
+      </div> <!-- Fin de container -->
+    </section> <!-- Fin de sección de membresías -->
+  
+  <!-- 🔹 SECCIÓN TIENDA -->
+  <section id="tienda" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-3 fw-bold membresias-title">Tienda de Lujo</h2>
+      <p class="mb-4">
+        Equípese con lo mejor. Descubra nuestra selección de artículos de golf de las marcas más prestigiosas.
+      </p>
+
+      <div class="carousel-container">
+        <button class="carousel-btn prev">&#10094;</button>
+        <div class="carousel-track">
+          <div class="carousel-card">
+            <img src="https://i.etsystatic.com/56694448/r/il/4cab81/6809878401/il_fullxfull.6809878401_r366.jpg" alt="Accesorios Exclusivos">
+            <h4>Accesorios Exclusivos</h4>
+            <p>Souvenirs con el logo del club. ¡Llévate un pedazo del club contigo!</p>
+          </div>
+          <div class="carousel-card">
+            <img src="https://m.media-amazon.com/images/I/81IUpzhEGxL._UF350,350_QL80_.jpg" alt="Equipamiento Profesional">
+            <h4>Equipamiento Profesional</h4>
+            <p>Mejora tu juego con los mejores drivers y putters del mercado.</p>
+          </div>
+          <div class="carousel-card">
+            <img src="https://images.ctfassets.net/gscn32h7ckds/6WkxR6aXYsk2fn30wS1M5I/d19d6789be0a30ac304eba2fe6d2f632/golfclothing_outlet_3_CM.jpeg" alt="Ropa de Golf">
+            <h4>Ropa de Golf</h4>
+            <p>Estilo y comodidad dentro y fuera del campo.</p>
+          </div>
+          <div class="carousel-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYvSnuiADmlRR3TuG_UQvWqsA9k5U-4KGZ2Q&s" alt="Promociones Especiales">
+            <h4>Promociones Especiales</h4>
+            <p>Sets personalizados para empresas y eventos especiales.</p>
+          </div>
+        </div>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 SECCIÓN EVENTOS -->
+  <section id="eventos" class="py-5">
+    <div class="container">
+      <div class="row text-center">
+            <h2 class="mb-4 fw-bold membresias-title">Próximos Eventos</h2>
+        </div>
+      <div id="lista-eventos" class="event-list"></div>
+    </div>
+  </section>
+
+  <!-- Preguntas frecuentes -->
+    <div class="container mt-5 mb-5 pb-5" id="preguntasFrecuentes">
+        <div class="row text-center">
+            <h2 class="fw-bold membresias-title">Preguntas frecuentes</h2>
+            <p>Encuentra respuestas a las dudas más comunes sobre nuestro club.</p>
+        </div>
+        <div class="row mt-3">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Cuáles son los requisitos para ser miembro?
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body mb-3">
+                        Para ser miembros del Encino Golf club, es necesario ser referido por un miembro actual y pasar por un proceso de selección que evalúa su compromiso con los valores del club y la comunidad del golf.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Puedo traer invitados al club?
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body mb-3">
+                        Sí, los miembros pueden traer invitados. Se aplican tarifas de invitado y ciertas restricciones de horario para garantizar la comodidad de todos nuestros miembros. Consulte nuestro reglamento para más detalles.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Hay código de vestimenta?
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body mb-3">
+                        Sí, mantenemos un código de vestimenta de golf tradicional y elegante tanto en el campo como en las instalaciones del club para preservar la atmósfera de exclusividad y respeto por el deporte.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contacto -->
+    <div class="container mt-5 mb-5 pb-5" id="contacto">
+        <div class="row text-center mb-3">
+            <h2 class="fw-bold membresias-title">Contacto</h2>
+            <p>Estamos aqui para ayudarle. Póngase en contacto con nosotros para cualquier consulta.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 ">
+                <form id="formularioContacto" class=" p-4 text-start">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electronico" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-enviar" id="liveAlertBtn">Enviar consulta</button>
+                    <div id="liveAlertPlaceholder" class="mt-3"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 text-center">
+                            <img src="./img/icono-ubicacion.png" alt="Icono ubicación" class="iconosContacto">
+                        </div>
+                        <div class="col-md-10">
+                            <p><strong>Dirección</strong><br>Calle del golf 12, Ciudad</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 text-center">
+                            <img src="./img/icono-telefono.png" alt="Icono teléfono" class="iconosContacto">
+                        </div>
+                        <div class="col-md-10">
+                            <p><strong>Teléfono</strong><br>+52 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 text-center">
+                            <img src="./img/icono-correo.png" alt="Icono Email" class="iconosContacto">
+                        </div>
+                        <div class="col-md-10">
+                            <p><strong>Correo electronico</strong><br>contacto@encinogolfclub.com</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.7646637695134!2d-99.4802517!3d19.292597699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdf5c127474439%3A0x9a49937c333d4c5f!2sClub%20de%20Golf%20los%20Encinos!5e0!3m2!1ses!2smx!4v1760412007331!5m2!1ses!2smx" width="100%" height="100px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- FOOTER -->
+<footer class="text-center py-4 mt-5" style="background-color: var(--verde-bosque); color: var(--blanco);">
+  <div class="container">
+    
+    <!-- Enlaces superiores -->
+    <div class="mb-3">
+      <a href="#contacto" class="text-decoration-none me-3 text-white small">Contacto</a>
+      <a href="#" class="text-decoration-none me-3 text-white small">Política de Privacidad</a>
+      <a href="#" class="text-decoration-none text-white small">Términos de Servicio</a>
+    </div>
+
+    <!-- Íconos de redes sociales -->
+    <div class="mb-3">
+      <a href="#" class="text-white fs-5 me-3"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-white fs-5 me-3"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="text-white fs-5"><i class="bi bi-twitter-x"></i></a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="small mb-0 text-white">© 2025 Los Encinos Premier Golf Club. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  <!-- 🔹 SCRIPT DE EVENTOS -->
+  <script>
+    const eventos = [
+      {
+        fecha: "25 OCT",
+        titulo: "Torneo Anual del Club",
+        descripcion: "El evento más esperado del año. Compita por el prestigioso trofeo del club.",
+        imagen: "https://olivar.golf/wp-content/uploads/2025/01/Torneo-abierto-Olivar-de-la-Hinojosa-Torneo-Otono-2025-1-scaled.jpg",
+        boton: "Inscribirse"
+      },
+      {
+        fecha: "12 NOV",
+        titulo: "Clínica de Putt con un Profesional",
+        descripcion: "Perfeccione su juego corto con la guía de un experto reconocido.",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Zf76ndhY-oT0cVIpdRE9TAb8IDs5vztS8g&s",
+        boton: "Reservar Plaza"
+      },
+      {
+        fecha: "05 DIC",
+        titulo: "Noche de Gala y Cena Benéfica",
+        descripcion: "Una velada elegante para socializar y apoyar una buena causa.",
+        imagen: "https://cdn0.bodas.com.mx/vendor/7804/3_2/960/jpg/CGB%203%20-%20copia.jpeg",
+        boton: "Más Información"
+      }
+    ];
+
+const contenedor = document.getElementById("lista-eventos");
+
+    eventos.forEach(evento => {
+      const item = document.createElement("div");
+      item.className = "evento-item";
+      item.innerHTML = `
+        <div class="evento-header">
+          <img src="${evento.imagen}" alt="${evento.titulo}" class="evento-thumb">
+          <div class="evento-info">
+            <div class="evento-fecha">${evento.fecha}</div>
+            <h5>${evento.titulo}</h5>
+            <p>${evento.descripcion}</p>
+          </div>
+          <button class="btn btn-light">${evento.boton}</button>
+        </div>
+      `;
+      contenedor.appendChild(item);
+      item.addEventListener("click", () => {
+        item.classList.toggle("expandido");
+      });
+    });
+  </script>
+  </body>
+</html>

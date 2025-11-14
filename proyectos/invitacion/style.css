@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&display=swap');
+body{
+	/*background: #FFF4E1;*/
+	/*background: #D8BFD8;*/
+	background:000;
+	margin:0;
+	width:100vw;
+	
+}
+.font1{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+}
+.font2{
+	font-family: 'Pacifico', cursive;
+}
+.font3{
+	font-family: 'Caveat', cursive;
+}
+.font4{
+	font-family: 'Amatic SC', sans-serif;
+	font-weight:bold;
+}
+.font5{
+	font-family: 'Preahvihear', sans-serif;
+}
+.letranegra{
+	color:#000;
+}
+.letralila{
+	color: #c971e0;
+}
+.letraoscura {
+	color: #26102b;
+}
+.dorado {
+	color: #FFD700;
+}
+.dorado2 {
+	color: #E8B34B;
+}
+.letrablanca{
+	color:fff;
+}
+.letraazul{
+	color: #0A497B;
+}
+
+.encabezado{
+	width: 100%;
+	height: 110%;
+	transition: 6s;
+}
+.encabezado2{
+	width: 100%;
+	height: 70%;
+}
+header{
+	background: src('./img/header.jpg');
+}
+.img {
+	width: 100%;
+}
+.margentop{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.margentop2{
+	margin-top: 2em;
+}
+.margentop3{
+	margin-top: 1em;
+}
+
+.espacio{
+	height:70vh;
+}
+.fondo{
+	background-image: url('./img/portada.png');
+	background-size: 100%;
+	color: white;
+	padding: 1.5em 3em 0 3em;
+	background-attachment: fixed;
+	
+}
+.fondo h3 {
+	font-family: 'Pacifico', cursive;
+}
+.margenlateral{
+	margin: 0 10%;
+}
+
+.fuente2{
+	color: #26102b;
+	
+}
+.borde{
+	border: 1px solid black; padding: 1em 0;
+}
+.bordes{
+	display:inline-block;
+	text-align:center;
+	width:25%;
+	bottom:0;
+}
+.bordes p{
+	font-size:12px;
+}
+.inline{
+	display:inline-block;
+}
+.fondo2{
+	background-image: url('./img/contacto.png');
+	background-size: 100%;
+	color: white;
+	padding: 3em;
+	font-family: 'Pacifico', cursive;
+	background-attachment: fixed;
+}
+.fecha{
+	position:absolute;
+	bottom:10px;
+	width:100%;
+}
+.fondo3{
+	background-image: url('./img/hoja.png');
+	background-size: 100% 100%;
+}
+.fondo4{
+	background-image: url('./img/hoja2.png');
+	background-size: 100% 100%;
+}
+.whats{
+	width: 80px;
+}
+h1{
+	font-size: 50px;
+}
+.lila{
+	background: #D8BFD8;
+}
+.encabezado{
+	display:flex;
+	flex-direction: column;
+}
+.fblanco{
+	border-radius:30px;
+	background:#fff;
+	color:#000;
+	opacity:70%;
+	padding:10px 0 0 0;
+}
+.audio {
+	position:absolute;
+	top:10px;
+	right:20px;
+	width:40%;
+	height:50px;
+}
+.alineado{
+	width:30%;s
+}
+.paddingtop{
+	padding:2em 0 0 0;
+}
+.paddingbottom{
+	padding: 0 0 2em 0;
+}
+.paddingbottom2{
+	padding: 0 0 4em 0;
+}
+.paddingbottom3{
+	padding: 0 0 1em 0;
+}
+.margencontenedores{
+	margin:5%;
+	width:90%;
+}
+.margencontenedores2{
+	margin: 0 25% ;
+	width:50%;
+}
+.margencontenedores3{
+	width:150px;
+	height:150px;
+}
+.boton{
+	padding: .5em 1.5em;
+}
