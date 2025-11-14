@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-color: #f6f8f6;
+}
+
+/* Fondo verde claro para el botón activo */
+.accordion-button:not(.collapsed) {
+    background-color: #f6f8f6;
+    color: #155724;
+    box-shadow: none !important;
+    border-bottom: none !important;
+}
+/* .accordion-button{
+    background-color: #f6f8f6;;
+} */
+.accordion {
+    margin: 0 8% ;
+    width: 84%;
+    /* background-color: #f6f8f6;; */
+
+}
+.accordion-item {
+    border-radius: 10px !important; 
+    overflow: hidden; /* Asegura que el contenido no sobresalga de las esquinas redondeadas */
+    border: 1px solid #ccc; 
+    /* background-color: #f6f8f6;; */
+
+}
+@media screen and (max-width: 1250px){
+	#preguntasFrecuentes{
+        width: 100%;
+    }
+    .accordion {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+/* Contacto */
+#contacto {
+    width: 100%;
+}
+.iconosContacto{
+    width: 50%;
+}
+/* Aplica borde verde al enfocar cualquier input o textarea dentro del formulario */
+#formularioContacto input:focus,
+#formularioContacto textarea:focus {
+    border-color: #28a745 !important; /* verde Bootstrap */
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); /* sombra verde suave */
+}
+#formularioContacto input, 
+#formularioContacto textarea{
+    /* background-color: #f6f8f6; */
+    border: solid 1px #c0c0c0;
+}
+.btn-enviar {
+    background-color: #28a745;
+    padding: 10px 30px;
+    color: #fff;
+}
+@media screen and (max-width: 1250px){
+	#contacto{
+        width: 90%;
+        margin: 0 5%;
+    }
+    #contacto img {
+        width: 30px;
+    }
+    #contacto p{
+        text-align: center;
+    }
+}
